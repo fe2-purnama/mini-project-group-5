@@ -3,11 +3,11 @@
 Mini Project Group - Report
 
 Anggota kelompok - (5) :
-(Leader) Adam Muniz Hestur Putra
-Fadhila Ridha Saputra
-Muh Rezky Pasuloi
-Nadya Putri Amalia
-Dafa Arta Anggara
+- (Leader) Adam Muniz Hestur Putra
+- Fadhila Ridha Saputra
+- Muh Rezky Pasuloi
+- Nadya Putri Amalia
+- Dafa Arta Anggara
 
 Detail Project:
 
