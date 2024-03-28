@@ -51,20 +51,22 @@ body {
 	font-weight: 500;
 }
 .navbar-light .navbar-brand {
-	color: #ffffff;
+	color: #810000;
 	font-size: 25px;
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
 }
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-	color: #ffffff;
+	color: #810000;
 }
 .navbar-light .navbar-nav .nav-link {
-	color: #ffffff;
+	color: #810000;
+	font-weight: bold;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-	color: #ffffff;
+	color: #810000;
+	
 }
 .w-100 {
 	height: 100vh;
@@ -89,7 +91,7 @@ body {
     width: auto;
   }
   .navbar-light{
-    background-color: #810000;
+    background-color: #EEEBDD;
   }
 
   .filter-buttons {
@@ -164,7 +166,7 @@ body {
     border-color: dodgerblue; 
 }
 .hero{
-    background-color: #d7afaf;
+    background-color: #EEEBDD;
     background:cover;
 }
 .btn{
