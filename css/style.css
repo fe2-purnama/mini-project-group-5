@@ -92,6 +92,7 @@ body {
   }
   .navbar-light{
     background-color: #EEEBDD;
+	border-bottom: 5px solid #810000;
   }
 
   .filter-buttons {
