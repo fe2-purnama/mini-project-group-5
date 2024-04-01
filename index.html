@@ -4,255 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Project Kelompok 5</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/start.css">
+    <title>Go-Topeng | Login</title>
 </head>
-<body>  
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-            <img src="img/logo.png" class="navbar-brand">
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">Quiz</a>
-                </li> 
-                <li class="nav-item">
-                    <a class="nav-link" href="#services">Shopping</a>
-                </li> 
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Account</a>
-                </li>        
-            </ul>
-            </div>
-        </div>
-    </nav>
-        
-      <section id="hero" class="hero hero-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 pb-0">
-                    <div class="section-header pb-3 pt-0">
-                        <h3 style="font-weight: bold;">Hi, User....</h3>
-                        <h6>Let's start explore</h6>
+<body>
+    <div class="container">
+        <div class="row border rounded-5 p-3 bg-white shadow box-area">
+            <div class="col-md-12 center-box">
+                <div class="row align-items-center">
+                    <div class="header-text mb-2 col-md-12" style="text-align: center;">
+                        <h1>Welcome to</h1>
+                        <h1>GO-TOPENG</h1>
                     </div>
-                </div>
-            </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card mb-0 mt-3" style="max-width: 540px; background-color: #810000; border-radius:15px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="img/maps.png" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title text-light">Maps</h5>
-                      <p class="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, pariatur?</p>
-                      <button type="button" class="btn bg-primary text-light" data-toggle="modal" data-target="#mapModal">Our Location</button>
+                    <div class="col-md-12 mb-3 d-flex justify-content-center align-items-center">
+                        <a href="./html/login.html" class="btn btn1 text-light fs-6">Login</a>
                     </div>
-                  </div>
-                </div>
-                <div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="mapModalLabel">Location Map</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.28033332371!2d110.50325137483941!3d-7.322375592685784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a791eea650a7b%3A0xa48e44ca27450c1b!2sGamelab%20Indonesia!5e0!3m2!1sid!2sid!4v1711456557295!5m2!1sid!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card mb-0 mt-3" style="max-width: 540px; background-color: #810000; border-radius:15px;">
-                  <div class="row g-0">
                     
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title text-light">Quiz</h5>
-                        <p class="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, pariatur?</p>
-                        <button type="button" class="btn bg-primary text-light" data-toggle="modal" data-target="#mapModal">Click to Play</button>
-                      </div>
+                    <div class="col-md-12 mb-3  d-flex justify-content-center align-items-center">
+                        <a href="./html/signup.html" class="btn btn2 text-light fs-6">Sign-Up</a>
                     </div>
-                    <div class="col-md-4">
-                        <img src="img/quiz.png" class="img-fluid rounded-start" alt="...">
-                      </div>
-                  </div>
-                  
                 </div>
-              </div>
-          </div>
+            </div> 
         </div>
-      </section>
-      
-      
-
-    <section id="about" class="about section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9 pb-0">
-                    <div class="section-header pb-0">
-                        <h1>News</h1>
-                    </div>
-                </div>
-                <div class="col-md-3 text-right pb-0">
-                    <div class="search">
-                        <input type="text" placeholder="Search....">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="filter-buttons">
-                        <button onclick="filterSelection('all')">All</button>
-                        <button onclick="filterSelection('popular')">Popular</button>
-                        <button onclick="filterSelection('new')">New</button>
-                    </div>
-                </div>
-            </div>
-            <div class="row" id="card-container">
-                <div class="col-12 col-md-12 col-lg-3 filter popular">
-                    <div class="card text-light text-center bg-transparent pb-2">
-                        <div class="card-body text-dark">
-                            <div class="img-area mb-4">
-                                <img src="img/malangan1.png" class="img-fluid" alt="">
-                            </div>
-                            <h3 class="card-title">Malangan</h3>
-                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi modi temporibus alias iste. Accusantium?</p>
-                            <button class="btn text-light">Learn More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-3 filter popular">
-                    <div class="card text-light text-center bg-transparent pb-2">
-                        <div class="card-body text-dark">
-                            <div class="img-area mb-4">
-                                <img src="img/malangan2.png" class="img-fluid" alt="">
-                            </div>
-                            <h3 class="card-title">Malangan</h3>
-                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi modi temporibus alias iste. Accusantium?</p>
-                            <button class="btn text-light">Learn More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-3 filter new">
-                    <div class="card text-light text-center bg-transparent pb-2">
-                        <div class="card-body text-dark">
-                            <div class="img-area mb-4">
-                                <img src="img/malangan1.png" class="img-fluid" alt="">
-                            </div>
-                            <h3 class="card-title">Malangan</h3>
-                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi modi temporibus alias iste. Accusantium?</p>
-                            <button class="btn text-light">Learn More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-3 filter new">
-                    <div class="card text-light text-center bg-transparent pb-2">
-                        <div class="card-body text-dark">
-                            <div class="img-area mb-4">
-                                <img src="img/malangan2.png" class="img-fluid" alt="">
-                            </div>
-                            <h3 class="card-title">Malangan</h3>
-                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi modi temporibus alias iste. Accusantium?</p>
-                            <button class="btn text-light">Learn More</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="image" class="image section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-12 col-12">
-                    <div class="image-img">
-                        <img src="img/topeng.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
-                    <div class="image-text">
-                          <h2>Topeng Malangan yang kami buat merupakan <br/>yang Terbaik</h2>
-                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, labore reiciendis. Assumenda eos quod animi! Soluta nesciunt inventore dolores excepturi provident, culpa beatae tempora, explicabo corporis quibusdam corrupti. Autem, quaerat. Assumenda quo aliquam vel, nostrum explicabo ipsum dolor, ipsa perferendis porro doloribus obcaecati placeat natus iste odio est non earum?</p>
-                          <a href="#" class="btn text-light">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-      
-      <section id="contact" class="contact section-padding">
-        <div class="container mt-5 mb-5">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header text-center pb-5">
-                        <h2>Hubungi Kami</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Non, quo.</p>
-                    </div>
-                </div>
-            </div>
-			<div class="row m-0">
-				<div class="col-md-12 p-0 pt-4 pb-4">
-					<form action="#" class="bg-transparent p-4 m-auto">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="mb-3">
-									<input class="form-control" placeholder="Nama Lengkap" required="" type="text">
-								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="mb-3">
-									<input class="form-control" placeholder="Email" required="" type="email">
-								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="mb-3">
-									<textarea class="form-control" placeholder="Pesan Anda" required="" rows="3"></textarea>
-								</div>
-							</div><button class="btn text-light btn-lg btn-block mt-3" type="button">Kirim</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-      </section>
-      
-      <footer class="p-2 text-center" style="background-color: #810000;">
-          <div class="container">
-              <p class="text-white">All Right Reserved By Gamelab</p>
-          </div>
-      </footer>
-      
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+    </div>
 </body>
 </html>
