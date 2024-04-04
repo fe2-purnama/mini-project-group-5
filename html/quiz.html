@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="../css/quiz.css">
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../js/scriptMP.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+          <img src="../img/logo.png" class="navbar-brand">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="quiz.html">Quiz</a>
+              </li> 
+              <li class="nav-item">
+                  <a class="nav-link" href="shopping.html">Shopping</a>
+              </li> 
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="team.html">Our Team</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Account</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a href="" class="dropdown-item">Profile</a></li>
+                      <li><a href="" class="dropdown-item">Edit</a></li>
+                      <li><a href="../index.html" class="dropdown-item">Logout</a></li>
+                  </ul>
+              </li>          
+          </ul>
+          </div>
+      </div>
+  </nav>
+
+    <div class="container mt-5">
+      <section id="quiz" class="p-4 bg-light rounded">
+        <h2 class="text-center mb-4">Quiz topengan</h2>
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <form id="quiz-form">
+              <div class="form-group">
+                <label for="question1"
+                  >Benarkah Tari merupakan ekspresi jiwa manusia yang
+                  diungkapkan dengan gerak-gerak ritmis yang indah?</label
+                >
+                <select class="form-control" id="question1" name="question1">
+                  <option value="">Pilih Jawaban</option>
+                  <option value="benar">Benar</option>
+                  <option value="salah">Salah</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="question2"
+                  >Apakah tari selalu muncul didasarkan pada dorongan yang
+                  berasal dari hati, bukan dari kehendak pikiran?</label
+                >
+                <select class="form-control" id="question2" name="question2">
+                  <option value="">Pilih Jawaban</option>
+                  <option value="benar">Benar</option>
+                  <option value="salah">Salah</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="question3"
+                  >Apakah Tari Topeng Malang merupakan perpaduan antara wajah
+                  manusia dan wayang dengan pergerakan tari yang
+                  patah-patah?</label
+                >
+                <select class="form-control" id="question3" name="question3">
+                  <option value="">Pilih Jawaban</option>
+                  <option value="benar">Benar</option>
+                  <option value="salah">Salah</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="question4"
+                  >Apakah topeng dipahami sebagai hasil pahatan yang menyerupai
+                  wajah?</label
+                >
+                <select class="form-control" id="question4" name="question4">
+                  <option value="">Pilih Jawaban</option>
+                  <option value="benar">Benar</option>
+                  <option value="salah">Salah</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="question5"
+                  >Benarkah Cerita Panji adalah lakon yang selalu menceritakan
+                  tentang hilangnya Dewi Sekartaji atau Candra Kirana dan
+                  ditemukan oleh Panji Asmorobangun?</label
+                >
+                <select class="form-control" id="question5" name="question5">
+                  <option value="">Pilih Jawaban</option>
+                  <option value="benar">Benar</option>
+                  <option value="salah">Salah</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="question6"
+                  >Apakah pengetahuan masyarakat tentang Cerita Panji dalam Tari
+                  Topeng Malang sebesar 4%?</label
+                >
+                <select class="form-control" id="question6" name="question6">
+                  <option value="">Pilih Jawaban</option>
+                  <option value="benar">Benar</option>
+                  <option value="salah">Salah</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="question7"
+                  >Benarkah Tari Topeng Malang adalah kesenian tari yang
+                  bercerita tentang Cerita Panji?</label
+                >
+                <select class="form-control" id="question7" name="question7">
+                  <option value="">Pilih Jawaban</option>
+                  <option value="benar">Benar</option>
+                  <option value="salah">Salah</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="question8"
+                  >Apakah komik adalah cerita bergambar yang umumnya mudah
+                  dicerna dan lucu?</label
+                >
+                <select class="form-control" id="question8" name="question8">
+                  <option value="">Pilih Jawaban</option>
+                  <option value="benar">Benar</option>
+                  <option value="salah">Salah</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="question9"
+                  >Benarkah komik memadukan kekuatan gambar dan tulisan dalam
+                  menyampaikan informasi?</label
+                >
+                <select class="form-control" id="question9" name="question9">
+                  <option value="">Pilih Jawaban</option>
+                  <option value="benar">Benar</option>
+                  <option value="salah">Salah</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="question10"
+                  >Apakah target audiens untuk komik cerita Panji terutama
+                  adalah masyarakat dewasa di kota Malang?</label
+                >
+                <select class="form-control" id="question10" name="question10">
+                  <option value="">Pilih Jawaban</option>
+                  <option value="benar">Benar</option>
+                  <option value="salah">Salah</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">
+                Submit
+              </button>
+            </form>
+            <div id="result" class="mt-4"></div>
+          </div>
+        </div>
+
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-6 mx-auto">
+              <h3 class="text-justify">
+                Tari Topeng Malang: Eksplorasi Gerakan dan Simbolisme Topeng
+              </h3>
+              <img
+                src="../img/topengan.png"
+                class="img-thumbnail mb-3"
+                alt="Tari Topeng Malang"
+              />
+              <p class="text-justify">
+                Tarian Topeng Malang merupakan perpaduan harmonis antara gerakan
+                yang memukau dan makna simbolis yang terkandung dalam topeng.
+                Cerita Panji memainkan peran utama dalam kesenian ini, menjadi
+                kisah yang menghantarkan penonton ke dalam dunia nilai dan
+                keindahan budaya Jawa Timur. Upaya untuk memperkenalkan seni
+                tradisional ini kepada generasi muda dilakukan melalui medium
+                komik, yang diharapkan dapat menumbuhkan apresiasi yang lebih
+                dalam terhadap warisan budaya yang berharga ini.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="text-white py-4" style="background-color: #810000;">
+      <div class="container text-center">
+        <p class="mb-0">&copy; 2024 Quiz Online</p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/home.js"></script>
+  </body>
+</html>
